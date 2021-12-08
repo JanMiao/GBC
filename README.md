@@ -1,0 +1,2 @@
+# GBC
+genomic breed composition
