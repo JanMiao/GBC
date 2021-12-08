@@ -1,5 +1,5 @@
 # GBC
-genomic breed composition
+Genomic Breed Composition analysis
 
 ## 联系方式
 miaojian@zju.edu.cn
