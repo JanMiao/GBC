@@ -4,7 +4,7 @@ Genomic Breed Composition analysis and breed identification
 ## 联系方式
 miaojian@zju.edu.cn
 
-## dependency
+## Dependency
 **R package**
 1. data.table
 2. ggplot2
@@ -13,7 +13,7 @@ miaojian@zju.edu.cn
 
 **Plink** (>=1.9)
 
-## install 
+## Install 
 install.packages("Path_to/GBC_1.0_R_x86_64-pc-linux-gnu.tar.gz", repos = NULL)
 
 ## Quickly start
