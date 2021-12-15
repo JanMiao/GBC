@@ -44,7 +44,7 @@ Makeref(plink_prefix, breed_file, quant_thres,
 **Example** 
 `Makeref(plink_prefix="Chip", breed_file="breedChip.txt", quant_thres = 0.9,
         IF_RMrelates=TRUE, relates_thres = 0.3,
-        plink_dir="/disk191/miaoj/software/")`  
+        plink_dir="~/software/")`  
 
 ### `GBCpred`
 **Description** 
@@ -67,7 +67,7 @@ Makeref(plink_prefix, breed_file, quant_thres,
 `S`：LASSO的lambda参数值，lambda越大，LASSO对回归系数的惩罚越强。  
 
 **Example** 
-`GBCpred(RDS="REF_frequency.rds", test_prefix="test", method="lm", plink_dir="/disk191/miaoj/software/", breedused=NULL, nmarkers=NULL, BINnum=500, S=0.01)`
+`GBCpred(RDS="REF_frequency.rds", test_prefix="test", method="lm", plink_dir="~/software/", breedused=NULL, nmarkers=NULL, BINnum=500, S=0.01)`
 
 
 ### `BIpred`
@@ -88,7 +88,7 @@ Makeref(plink_prefix, breed_file, quant_thres,
 `nmarkers`：breed information marker的数目。默认`NULL`代表使用所有marker。  
 
 **Example** 
-`BIpred(RDS="REF_frequency.rds", test_prefix="test", plink_dir="/disk191/miaoj/software/", breedused=NULL, nmarkers=NULL)`  
+`BIpred(RDS="REF_frequency.rds", test_prefix="test", plink_dir="~/software/", breedused=NULL, nmarkers=NULL)`  
 
 
 ### `GBCplot`
@@ -129,6 +129,6 @@ GBC可视化结果的ggplot2对象。
 
 **Example** 
 `PCAplot(plink_prefix="Chip", breed_file="breedChip.txt", PDFprefix="QC",
-        plink_dir="/disk191/miaoj/software/")`
+        plink_dir="~/software/")`
 
 
