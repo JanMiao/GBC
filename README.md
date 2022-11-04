@@ -1,15 +1,15 @@
 # GBC
 Genomic Breed Composition analysis and breed identification
 
-## 联系方式
+## contact information
 miaojian@zju.edu.cn
 
 ## Dependency
 **R package**
 1. data.table
 2. ggplot2
-3. glmnet (for lasso analysis)
-4. quadprog (for linear model with constrained regression coefficients)
+3. glmnet (for lasso analysis, **optional**)
+4. quadprog (for linear model with constrained regression coefficients, **optional**)
 
 **Plink** (>=1.9)
 
@@ -17,10 +17,10 @@ miaojian@zju.edu.cn
 install.packages("Path_to/GBC_1.0_R_x86_64-pc-linux-gnu.tar.gz", repos = NULL)
 
 ## Quickly start
-快速生成参考群，并基于该参考群进行品种溯源分析和品种鉴定分析，使用如下三个函数：
-- `Makeref` 生成参考群
-- `GBCpred` GBC评估
-- `BIpred` 品种鉴定
+Construction of reference data, and perform GBC analysis and breed identification based on this reference data. This R package has below three main functions:
+- `Makeref` construction of reference data
+- `GBCpred` GBC analysis
+- `BIpred` breed identification
 ```
 ### copy example files to your current work directory
 example_files=c(
@@ -65,7 +65,7 @@ bi = BIpred(RDS="REF_frequency.rds",
 ## Function description
 ### `Makeref`
 **Description**   
-基于plink 二进制（bed）文件和样本对应的品种信息，对样本进行outliers/relatives deletion。去除异常样本（错标/杂种）并对高亲缘关系的样本进行去冗余。  
+Plink bed final and the breed information of all samples，对样本进行outliers/relatives deletion。去除异常样本（错标/杂种）并对高亲缘关系的样本进行去冗余。  
 
 **Usage**     
 `Makeref(plink_prefix, breed_file, quant_thres,
