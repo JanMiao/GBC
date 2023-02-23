@@ -2,7 +2,7 @@
 Genomic Breed Composition analysis and breed identification
 
 ## contact information
-miaojian@6363@163.com
+miaojian6363@163.com
 
 ## Dependency
 **R package**
