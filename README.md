@@ -1,7 +1,5 @@
 # GBC
 Genomic Breed Composition analysis and breed identification
-`library(GBC)`
-`library(data.table)`
 
 ## contact information
 miaojian6363@163.com
@@ -35,6 +33,10 @@ example_files=c(
   system.file("extdata", "breedInfo.txt", package = "GBC")
 )
 file.copy(example_files, ".")
+
+### load packages
+`library(GBC)`  
+`library(data.table)`  
 
 ### specify your directory of plink executable file
 plink_dir = "~/software/"
