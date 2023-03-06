@@ -35,8 +35,8 @@ example_files=c(
 file.copy(example_files, ".")
 
 ### load packages
-`library(GBC)`  
-`library(data.table)`  
+library(GBC)  
+library(data.table)
 
 ### specify your directory of plink executable file
 plink_dir = "~/software/"
