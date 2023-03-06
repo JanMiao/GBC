@@ -1,5 +1,7 @@
 # GBC
 Genomic Breed Composition analysis and breed identification
+`library(GBC)`
+`library(data.table)`
 
 ## contact information
 miaojian6363@163.com
