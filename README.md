@@ -69,7 +69,7 @@ bi = BIpred(RDS="REF_frequency.rds",
 ## Function description
 ### `Makeref`
 **Description**   
-Remove outliers and relatives in user-provided plink files and then generate two rds file for downstram GBC/BI analysis.
+generate the reference data for downstream GBC/BI analysis. Removing outliers and relatives for each breed and then generate two rds file for downstram GBC/BI analysis.
 
 **Usage**     
 `Makeref(plink_prefix, breed_file, quant_thres,
