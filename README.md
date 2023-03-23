@@ -1,5 +1,5 @@
 # GBC
-Genomic Breed Composition analysis and breed identification
+R package for Genomic Breed Composition analysis and breed identification
 
 ## contact information
 miaojian6363@163.com
