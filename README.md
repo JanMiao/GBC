@@ -79,7 +79,7 @@ generate the reference data for downstream GBC/BI analysis. Removing outliers an
 **REF_frequency.rds** and **REF_genotype.rds** are generate in current working dictionary。**REF_frequency.rds** is the allele frequency file。**REF_genotype.rds**is a list including two elements, one of which is the plink `recodeA` genotypes(coding as 0, 1, 2) and the other is the sample IDs and the corresponding breed labels.
 
 **Parameter**   
-`plink_prefix`：The prefix of plink bed file. The second column of fam file is the sample ID.
+`plink_prefix`：The prefix of plink bed file. **The second column of fam file must be the sample ID**.
 `breed_file`：File contains breed information, no header，the first column is the sample ID, the second column is the breed label.
 `quant_thres`：Propotion of sample should be treated as pure. if `quant_thres=0.9`, then keep 90% pure samples according the order of genotype likelihood. 
 `IF_RMrelates`: If relatives should be removed.
