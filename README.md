@@ -205,4 +205,4 @@ bi = LLBI(genotypeMatrix=sMarker$testGeno, AFMatrix=sMarker$RefFrqMatrix)
 ```
 ## To do list
 - [ ] Add the functionality to draw PCA plots and label outliers on the plot.
-- [ ] Add a function for genotype-based breed identification, as it provides more accurate identification compared to frequency-based methods. [iDIGs](http://alphaindex.zju.edu.cn/iDIGs_en/)
+- [ ] Add a function for genotype-based breed identification, as it provides more accurate identification compared to frequency-based methods. For detailed methodology, please refer to **[iDIGs]([http://alphaindex.zju.edu.cn/iDIGs_en/](https://gsejournal.biomedcentral.com/articles/10.1186/s12711-023-00788-0))**.
