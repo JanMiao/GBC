@@ -203,4 +203,6 @@ gbc = GBCadjust_set0(gbc, Ndecimals = 3)
 # LLBI: Breed Identification using genotype likelihood
 bi = LLBI(genotypeMatrix=sMarker$testGeno, AFMatrix=sMarker$RefFrqMatrix)
 ```
-
+## To do list
+- [ ] Add the functionality to draw PCA plots and label outliers on the plot.
+- [ ] Add a function for genotype-based breed identification, as it provides more accurate identification compared to frequency-based methods. [iDIGs](http://alphaindex.zju.edu.cn/iDIGs_en/)
