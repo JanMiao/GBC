@@ -151,7 +151,7 @@ plot GBC results.
 a object of ggplot2
 
 **Parameter**   
-`GBCres`: the results from GBCpred 
+`GBCres`: the results from GBCpred  
 `FontSize`：font size.
 
 **Example**     
